@@ -7,10 +7,10 @@ export function useCounter() {
   return useStore(_counter)
 }
 
-export function increment(num: number) {
-  _counter.set(_counter.get() + num)
+export function increment() {
+  _counter.set(_counter.get() + 1)
 }
 
-export function decrement(num: number) {
-  _counter.set(_counter.get() - num)
+export function decrement() {
+  _counter.set(_counter.get() - 1)
 }
