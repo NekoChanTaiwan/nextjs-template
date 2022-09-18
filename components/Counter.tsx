@@ -1,10 +1,9 @@
 import React from 'react'
 import { MdAdd, MdRemove } from 'react-icons/md'
-import { useStore } from '@nanostores/react'
-import { _counter, increment, decrement } from '@/store/counter'
+import { useCounter, increment, decrement } from '@/store/counter'
 
 function Counter() {
-  const counter = useStore(_counter)
+  const counter = useCounter()
 
   return (
     <div className='mt-4 flex items-center'>
