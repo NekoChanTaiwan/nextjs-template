@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import Heading from '@/components/Heading'
 import Counter from '@/components/Counter'
