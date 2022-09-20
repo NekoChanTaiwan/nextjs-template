@@ -1,16 +1,16 @@
 import { atom } from 'nanostores'
 import { useStore } from '@nanostores/react'
 
-const _counter = atom(0)
+const _count = atom(0)
 
 export function useCounter() {
-  return useStore(_counter)
+  return useStore(_count)
 }
 
 export function increment() {
-  _counter.set(_counter.get() + 1)
+  _count.set(_count.get() + 1)
 }
 
 export function decrement() {
-  _counter.set(_counter.get() - 1)
+  _count.set(_count.get() - 1)
 }

@@ -3,7 +3,7 @@ import { MdAdd, MdRemove } from 'react-icons/md'
 import { useCounter, increment, decrement } from '@/store/counter'
 
 function Counter() {
-  const counter = useCounter()
+  const count = useCounter()
 
   return (
     <div className='mt-4 flex items-center'>
@@ -15,7 +15,7 @@ function Counter() {
       >
         <MdRemove />
       </button>
-      <span className='mx-4 text-4xl'>{counter}</span>
+      <span className='mx-4 text-4xl'>{count}</span>
       <button
         type='button'
         title='Increment'
