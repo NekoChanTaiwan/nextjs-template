@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdAdd, MdRemove } from 'react-icons/md'
 import { useCounter, increment, decrement } from '@/store/counter'
 
