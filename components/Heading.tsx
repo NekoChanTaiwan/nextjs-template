@@ -7,7 +7,7 @@ interface HeadingProps {
 }
 
 function Heading({ className, children }: HeadingProps) {
-  return <h1 className={cx('text-6xl font-extrabold', className)}>{children}</h1>
+  return <h1 className={cx('text-9xl', className)}>{children}</h1>
 }
 
 export default Heading

@@ -10,7 +10,7 @@ function Home() {
         <title>Next.js Template</title>
       </Head>
       <div className='flex h-screen flex-col items-center justify-center gap-4'>
-        <Heading className='animate-pulse'>Hello World</Heading>
+        <Heading className='animate-pulse font-logo'>Hello World.</Heading>
         <Counter />
         <ColorMode />
       </div>
