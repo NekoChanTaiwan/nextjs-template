@@ -3,7 +3,7 @@ import type { ReactNode } from 'react'
 
 interface HeadingProps {
   className?: string
-  children: React.ReactNode
+  children: ReactNode
 }
 
 function Heading({ className, children }: HeadingProps) {
