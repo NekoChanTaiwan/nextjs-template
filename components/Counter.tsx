@@ -5,11 +5,11 @@ function Counter() {
   const count = useCounter()
 
   return (
-    <div className='mt-4 flex items-center'>
+    <div className='flex items-center'>
       <button
         type='button'
         title='Decrement'
-        className='rounded-full bg-white p-1 text-2xl text-gray-800 opacity-70'
+        className='rounded-full bg-white/70 p-1 text-2xl text-gray-800'
         onClick={() => decrement()}
       >
         <MdRemove />
@@ -18,7 +18,7 @@ function Counter() {
       <button
         type='button'
         title='Increment'
-        className='rounded-full bg-white p-1 text-2xl text-gray-800 opacity-70'
+        className='rounded-full bg-white/70 p-1 text-2xl text-gray-800'
         onClick={() => increment()}
       >
         <MdAdd />
