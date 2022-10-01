@@ -8,6 +8,8 @@ function ColorMode() {
 
   return (
     <button
+      type='button'
+      title='Toggle color mode'
       className='flex items-center rounded-lg bg-white/70 py-2 px-4 text-xl text-black'
       onClick={toggleColorMode}
     >
