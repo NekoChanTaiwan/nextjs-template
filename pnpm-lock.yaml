@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@nanostores/react': ^0.4.0
   '@next/bundle-analyzer': ^12.3.1
-  '@types/node': 18.7.23
+  '@types/node': 18.8.0
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   autoprefixer: ^10.4.12
@@ -36,7 +36,7 @@ dependencies:
 
 devDependencies:
   '@next/bundle-analyzer': 12.3.1
-  '@types/node': 18.7.23
+  '@types/node': 18.8.0
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   autoprefixer: 10.4.12_postcss@8.4.17
@@ -56,7 +56,7 @@ packages:
     resolution: {integrity: sha512-j2vJGnkopRzH+ykJ8h68wrHnEUmtK//E723jjixiAl/PPf6FhqY/vYRcMVlNydRKQjQsTsYEjpx+DZMIvnGk/g==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      core-js-pure: 3.25.3
+      core-js-pure: 3.25.4
       regenerator-runtime: 0.13.9
     dev: true
 
@@ -297,8 +297,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.7.23:
-    resolution: {integrity: sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==}
+  /@types/node/18.8.0:
+    resolution: {integrity: sha512-u+h43R6U8xXDt2vzUaVP3VwjjLyOJk6uEciZS8OSyziUQGOwmk+l+4drxcsDboHXwyTaqS1INebghmWMRxq3LA==}
     dev: true
 
   /@types/prop-types/15.7.5:
@@ -673,8 +673,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /core-js-pure/3.25.3:
-    resolution: {integrity: sha512-T/7qvgv70MEvRkZ8p6BasLZmOVYKzOaWNBEHAU8FmveCJkl4nko2quqPQOmy6AJIp5MBanhz9no3A94NoRb0XA==}
+  /core-js-pure/3.25.4:
+    resolution: {integrity: sha512-qRbgm0ADrsNTU66UcW47YMJjXm+ShhUP2gkoEoAShT2BHO3cb5gGqLtmWpjnM6Wx9h5hMSF4uZ+jEV/8+4KCsw==}
     requiresBuild: true
     dev: true
 
