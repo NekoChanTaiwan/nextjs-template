@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Heading from '@/components/Heading'
-import Counter from '@/components/Counter'
-import ColorMode from '@/components/ColorMode'
+
+import Theme from '@/components/theme'
 
 function Home() {
   return (
@@ -10,9 +9,8 @@ function Home() {
         <title>Next.js Template</title>
       </Head>
       <div className='flex h-screen flex-col items-center justify-center gap-4'>
-        <Heading className='animate-pulse font-logo'>Hello World.</Heading>
-        <Counter />
-        <ColorMode />
+        <h1 className='animate-pulse font-logo text-9xl'>Hello World</h1>
+        <Theme />
       </div>
     </>
   )
